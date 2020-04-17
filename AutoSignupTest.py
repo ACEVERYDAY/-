@@ -8,8 +8,8 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 
-stu_number = '201706020115'
-stu_password = '10200014'
+stu_number = '201xxxxxxx'
+stu_password = 'xxxxxx'
 
 # 获得日期差值，由于表格数据是动态变化的，可根据编写日期的行号和日期差来确定当日行号
 def getDateDiff():
